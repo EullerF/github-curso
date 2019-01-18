@@ -1,0 +1,119 @@
+/*Limpando*/
+* {
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	font-size: 1em;
+	font-family: "Arial",Helvetica,sans-serif;
+	background: #e6e6e6;
+}
+/*layout*/
+
+#area_cabecalho
+{
+	background-color: #f7b600;
+	padding: 15px;
+	text-align: center;
+}
+#area_logo
+{
+padding: 10px;
+}
+#area_menu
+{
+	padding: 10px;
+}
+/*gerais*/
+h1{
+	color: #4e4e4e;
+	font-size: 2.5em;
+}
+h3{
+	color: #f7b600;	
+}
+h4{
+	color: #565656;
+	background: #CCC;
+	padding: 5px;
+}
+.branco{
+	color: white;
+}
+.datapostagem
+{
+	font-size: 0.8em;
+	border-bottom: 1px solid #f4f4f4;
+	padding-bottom: 10px;
+	margin-bottom 10px;
+	display: block;
+}
+/*
+
+*/
+#area_principal
+{
+	padding: 15px;
+	width: 920px;
+	margin: 0 auto;
+}
+#postagens
+{
+	width: 660px;
+	float: left;
+}
+.postagem
+{
+	padding: 20px;
+	margin-bottom: 20px;
+	background: white;
+}
+#lateral
+{
+	width: 240px;
+	float: right;
+}
+.Conteudo_lateral
+{
+	background: white;
+	padding: 10px;
+	margin-bottom: 20px;
+
+}
+.postagem_lateral
+{
+	font-size: 1em;
+	padding: 5px;
+}
+#rodape
+{
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	background: #CCC;
+	width: 920px;
+}
+/* Formatação do menu */
+
+a {
+	text-decoration: none;	
+}
+a:link,  a:visited {
+	color: #f7b600;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+
+#area_cabecalho a:link, #area_cabecalho a:visited {
+	color: #FFF;
+	padding: 8px 12px;
+}
+
+#area_cabecalho a:hover {
+	color: #f7b600;
+	background: #FFF;
+	text-decoration: none;
+}
